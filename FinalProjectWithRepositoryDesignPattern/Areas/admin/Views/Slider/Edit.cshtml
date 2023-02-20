@@ -1,0 +1,27 @@
+﻿@using FinalProjectWithRepositoryDesignPattern.DTOs.Slider;
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@model SliderEditDto
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <div asp-validation-summary="ModelOnly"></div>
+        <input hidden asp-for="GetDto.Id" />
+
+        <label asp-for="PostDto.Title">Title</label>
+        <input class="form-control" asp-for="PostDto.Title" value="@Model.GetDto.Title" placeholder="Enter title">
+    </div>
+    <div class="form-group">
+        <label asp-for="PostDto.Text">Title</label>
+        <input class="form-control" asp-for="PostDto.Text" value="@Model.GetDto.Text" placeholder="Enter text">
+    </div>
+    <div class="form-group">
+        <label asp-for="PostDto.FormFile">Title</label>
+        <input accept="image/*" class="form-control" asp-for="PostDto.FormFile">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+

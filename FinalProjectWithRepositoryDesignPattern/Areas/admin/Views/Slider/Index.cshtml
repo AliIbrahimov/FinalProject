@@ -1,0 +1,39 @@
+﻿@using FinalProjectWithRepositoryDesignPattern.DTOs.Slider
+
+@{
+    ViewData["Title"] = "Index";
+    int count = 1;
+}
+@model List<SliderGetDto>
+
+<a asp-area="admin" asp-controller="Slider" asp-action="create" class="btn btn-outline-success" >Create</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Text</th>
+            <th scope="col">Photo</th>
+            <th scope="col">Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@count</th>
+                <td>@item.Title</td>
+                <td>@item.Text</td>
+                <td>
+                    <img src="~/assets/img/@item.Image">
+                </td>
+                <td>
+                    <a asp-area="admin" asp-controller="Slider" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-info">Edit</a>
+                    <a asp-area="admin" asp-controller="Slider" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Delete</a>
+                </td>
+            </tr>
+            count++;
+        }
+    </tbody>
+</table>
+

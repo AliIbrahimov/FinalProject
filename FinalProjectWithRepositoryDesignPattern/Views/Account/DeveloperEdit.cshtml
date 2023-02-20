@@ -1,0 +1,240 @@
+﻿@using FinalProjectWithRepositoryDesignPattern.DTOs.Developer
+@{
+    ViewData["Title"] = "DeveloperEdit";
+}
+@model DeveloperEditDto
+<div class="container-fluid bg-primary py-5 bg-header2">
+</div>
+<section style="background: rgba(9, 30, 62, .7); ">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+
+                <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4 d-flex justify-content-between">
+
+                    <h1>Profile</h1>
+                </nav>
+            </div>
+        </div>
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            @if (Model.getDto.Image is null)
+                            {
+                                <img src="/assets//img/avatar.webp" alt="avatar"
+                                 class="rounded-circle img-fluid" style="width: 150px;">
+                            }
+                            else
+                            {
+                                <img src="/assets//img/@Model.getDto.Image" alt="avatar"
+                                 class="rounded-circle img-fluid" style="width: 150px;">
+                            }
+                            <div asp-validation-summary="ModelOnly"></div>
+                            <input hidden asp-for="@Model.getDto.Id" />
+                            <div class="card-body">
+                                <div class="form-group">
+
+                                    <label asp-for="@Model.postDto.FormFile"></label>
+                                    <input type="file" class="form-control" asp-for="@Model.postDto.FormFile">
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                    <div asp-validation-summary="ModelOnly"></div>
+                                    <input hidden asp-for="@Model.getDto.Id" readonly />
+
+                                </div>
+                                <hr>
+                                <div class="form-group">
+
+                                    <label asp-for="@Model.postDto.Position">Position</label>
+                                    <input class="form-control" asp-for="@Model.postDto.Position" value="@Model.getDto.Position" placeholder="Enter title">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="card mb-4 mb-lg-0">
+                        <div class="card-body p-0">
+                            <ul class="list-group list-group-flush rounded-3">
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fas fa-globe fa-lg text-warning"></i>
+                                    <p class="mb-0">https://mdbootstrap.com</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-github fa-lg" style="color: #333333;"></i>
+                                    <p class="mb-0">mdbootstrap</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                                    <p class="mb-0">mdbootstrap</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
+                                    <p class="mb-0">mdbootstrap</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
+                                    <p class="mb-0">mdbootstrap</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="card mb-4">
+                        <div class="card-body">
+
+                            <div class="form-group">
+
+                                <div asp-validation-summary="ModelOnly"></div>
+                                <input hidden asp-for="@Model.getDto.Id" />
+
+                                <label asp-for="@Model.postDto.Username">Username</label>
+                                <input class="form-control" asp-for="@Model.postDto.Username" value="@Model.getDto.UserName" readonly />
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Name">Name</label>
+                                <input class="form-control" asp-for="@Model.postDto.Name" value="@Model.getDto.Name" placeholder="Enter name">
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Surname">Surname</label>
+                                <input class="form-control" asp-for="@Model.postDto.Surname" value="@Model.getDto.Surname" placeholder="Enter surname">
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Mail">Email</label>
+                                <input class="form-control" asp-for="@Model.postDto.Mail" value="@Model.getDto.Mail" readonly>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Phone">Number</label>
+                                <input class="form-control" asp-for="@Model.postDto.Phone" value="@Model.getDto.Phone" placeholder="Enter number">
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Adress">Address</label>
+                                <input class="form-control" asp-for="@Model.postDto.Adress" value="@Model.getDto.Adress" placeholder="Enter address">
+                            </div>
+                            
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+
+                        @foreach (var item in Model.getDto.Projects)
+                        {
+                            
+                            <div class="col-sm-6">
+                                <div>
+                                    <a class="btn btn-danger" asp-controller="Project" asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
+                            </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@item.Name</h5>
+                                        <img style="width:100px;height:100px" src="~/assets/img/@item.Image" />
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="container py-5">
+
+                    <div class="row projects">
+
+                        <div class="col-sm-12">
+                            <div class="card">
+                                @for (int i = 0; i <1; i++)
+                                {
+                                    <div class="card-body">
+                                        <div class="form-group">
+
+                                            <div asp-validation-summary="ModelOnly"></div>
+                                            <input hidden asp-for="@Model.getDto.Id" />
+
+                                            <label asp-for="@Model.postDto.Projects[i].Name">Project Name</label>
+                                            <input class="form-control" asp-for="@Model.postDto.Projects[i].Name" />
+                                        </div>
+                                        <div class="form-group">
+
+                                            <label asp-for="@Model.postDto.Projects[i].ProjectUrl">Project Url</label>
+                                            <input class="form-control" asp-for="@Model.postDto.Projects[i].ProjectUrl" />
+                                        </div>
+                                        <div class="form-group">
+
+                                            <label asp-for="@Model.postDto.Projects[i].FormFile">Project Image</label>
+                                            <input class="form-control" asp-for="@Model.postDto.Projects[i].FormFile" />
+                                        </div>
+                                        <div class="form-group">
+
+                                            <label asp-for="@Model.postDto.Projects[i].Description">Project description</label>
+                                            <input class="form-control" asp-for="@Model.postDto.Projects[i].Description" />
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">Save</button>
+
+            </div>
+        </form>
+
+        @*<script>
+        let addbtn = document.querySelector(".add")
+        let rows = document.querySelector(".projects")
+
+        console.log(addbtn)
+        addbtn.addEventListener("click", function () {
+        let project = document.createElement("div")
+        project.classList.add("col-sm-12")
+        project.classList.add("my-3")
+        project.innerHTML =
+        `
+        <div class="col-sm-12">
+        <div class="card">
+        <div class="card-body">
+        <label >Project name</label>
+        <input class="form-control" />
+        <br />
+        <label>Projectimage</label>
+        <input   class="form-control" type="file" />
+        <label>Project Link</label>
+        <input  class="form-control" />
+        </div>
+        </div>
+        </div>
+
+        `
+        rows.appendChild(project)
+
+        })
+
+        </script>*@
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    </div>
+    </div>
+
+
+</section>
+

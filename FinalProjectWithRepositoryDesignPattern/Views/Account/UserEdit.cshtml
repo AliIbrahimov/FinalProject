@@ -1,0 +1,121 @@
+﻿@using FinalProjectWithRepositoryDesignPattern.DTOs.User
+
+@{
+    ViewData["Title"] = "UserEdit";
+}
+
+@model UserEditDto
+<div class="container-fluid bg-primary py-5 bg-header2">
+</div>
+<section style="background: rgba(9, 30, 62, .7); ">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+
+                <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4 d-flex justify-content-between">
+
+                    <h1>Profile</h1>
+                </nav>
+            </div>
+        </div>
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            @if(Model.getDto.Image is null) {
+                                <img src="/assets//img/avatar.webp" alt="avatar"
+                                 class="rounded-circle img-fluid" style="width: 150px;">
+                            }
+                            else {
+                                <img src="/assets//img/@Model.getDto.Image" alt="avatar"
+                                 class="rounded-circle img-fluid" style="width: 150px;">
+                            }
+                          
+                            <div asp-validation-summary="ModelOnly"></div>
+                            <input hidden asp-for="@Model.getDto.Id" />
+                            <div class="card-body">
+                                <div class="form-group">
+
+                                    <label asp-for="@Model.postDto.FormFile"></label>
+                                    <input type="file" class="form-control" asp-for="@Model.postDto.FormFile">
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                    <div asp-validation-summary="ModelOnly"></div>
+                                    <input hidden asp-for="@Model.getDto.Id" readonly />
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="card mb-4">
+                        <div class="card-body">
+
+                            <div class="form-group">
+
+                                <div asp-validation-summary="ModelOnly"></div>
+                                <input hidden asp-for="@Model.getDto.Id" />
+
+                                <label asp-for="@Model.postDto.Username">Username</label>
+                                <input class="form-control" asp-for="@Model.postDto.Username" value="@Model.getDto.Username" readonly />
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Name">Name</label>
+                                <input class="form-control" asp-for="@Model.postDto.Name" value="@Model.getDto.Name" placeholder="Enter name">
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Surname">Surname</label>
+                                <input class="form-control" asp-for="@Model.postDto.Surname" value="@Model.getDto.Surname" placeholder="Enter surname">
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Mail">Email</label>
+                                <input class="form-control" asp-for="@Model.postDto.Mail" value="@Model.getDto.Mail" readonly>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Phone">Number</label>
+                                <input class="form-control" asp-for="@Model.postDto.Phone" value="@Model.getDto.Phone" placeholder="Enter number">
+                            </div>
+                            <hr>
+                            <div class="form-group">
+
+                                <label asp-for="@Model.postDto.Adress">Address</label>
+                                <input class="form-control" asp-for="@Model.postDto.Adress" value="@Model.getDto.Adress" placeholder="Enter address">
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary">Save</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</section>
+
+
+

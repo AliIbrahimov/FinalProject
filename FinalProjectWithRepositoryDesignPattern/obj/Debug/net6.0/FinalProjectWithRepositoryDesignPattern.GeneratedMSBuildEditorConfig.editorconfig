@@ -1,0 +1,216 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinalProjectWithRepositoryDesignPattern
+build_property.RootNamespace = FinalProjectWithRepositoryDesignPattern
+build_property.ProjectDir = C:\Users\354_1\Desktop\BackEnd\FinalProjectWithRepositoryDesignPattern\FinalProjectWithRepositoryDesignPattern\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\354_1\Desktop\BackEnd\FinalProjectWithRepositoryDesignPattern\FinalProjectWithRepositoryDesignPattern
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/About/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQWJvdXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/AddDeveloper/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQWRkRGV2ZWxvcGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/ChooseUs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2hvb3NlVXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/ChooseUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2hvb3NlVXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Info/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcSW5mb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Quote/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUXVvdGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Slider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2xpZGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Slider/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2xpZGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Slider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Statistic/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU3RhdGlzdGljXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Statistic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU3RhdGlzdGljXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Account/DeveloperEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXZlbG9wZXJFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Account/DeveloperProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXZlbG9wZXJQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Account/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JnZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Account/Setting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Account/UserEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2VyRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Account/UserProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2VyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Pages/Developers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRGV2ZWxvcGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Pages/FreeQuote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRnJlZVF1b3RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Pages/OurFeatures.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcT3VyRmVhdHVyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Project/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Project/ProjectGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxQcm9qZWN0R3JpZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Services/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Shared/Components/About/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWJvdXRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Shared/Components/ChooseUs/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2hvb3NlVXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Shared/Components/Developers/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGV2ZWxvcGVyc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Shared/Components/Projects/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdHNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Shared/Components/Quote/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUXVvdGVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Shared/Components/Service/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Shared/Components/Testimonial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVGVzdGltb25pYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Areas/admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-02wgaof3mz
+
+[C:/Users/354_1/Desktop/BackEnd/FinalProjectWithRepositoryDesignPattern/FinalProjectWithRepositoryDesignPattern/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-86uka6w2hg

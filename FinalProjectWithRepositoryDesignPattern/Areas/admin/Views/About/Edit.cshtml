@@ -1,0 +1,36 @@
+﻿@using FinalProjectWithRepositoryDesignPattern.DTOs.AboutUs
+@model AboutUsEditDto
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <div asp-validation-summary="ModelOnly"></div>
+        <input hidden asp-for="getDto.Id" />
+
+        <label asp-for="postDto.AboutName">Title</label>
+        <input class="form-control" asp-for="postDto.AboutName" value="@Model.getDto.AboutName" placeholder="Enter title">
+    </div>
+    <div class="form-group">
+
+        <label asp-for="postDto.AboutTitle">Title</label>
+        <input class="form-control" asp-for="postDto.AboutTitle" value="@Model.getDto.AboutTitle" placeholder="Enter title">
+    </div>
+    <div class="form-group">
+
+        <label asp-for="postDto.Aboutdescription">Title</label>
+        <input class="form-control" asp-for="postDto.Aboutdescription" value="@Model.getDto.Aboutdescription" placeholder="Enter title">
+    </div>
+    @for (int i=0; i<Model.getDto.AboutActions.Count;i++)
+    {
+        <div class="form-group">
+
+            <label asp-for="@Model.getDto.AboutActions[i]">Title</label>
+            <input class="form-control" asp-for="@Model.postDto.AboutActions[i].Name" value="@Model.getDto.AboutActions[i].Name" placeholder="Enter action name">
+        </div>
+    }
+    <div class="form-group">
+
+        <label  asp-for="postDto.FormFile">Title</label>
+        <input type="file" accept="image/*" class="form-control" asp-for="postDto.FormFile"  >
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -1,0 +1,45 @@
+﻿@using FinalProjectWithRepositoryDesignPattern.DTOs.Contact
+@using FinalProjectWithRepositoryDesignPattern.DTOs.Developer
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model List<DeveloperGetDto>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Fullname</th>
+            <th scope="col">Position</th>
+            <th scope="col">Description</th>
+            <th scope="col">image</th>
+            <th scope="col">Projects</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row"></th>
+                <td>@item.UserName</td>
+                <td>@item.Position</td>
+                <td>@item.Description</td>
+                <td>
+                    <img src="~/assets//img/@item.Image" >
+                </td>
+                <td>
+                    @for (var i = 0; i < item.Projects.Count; i++)
+                    {
+                        
+                    }
+                    
+                </td>
+                <td>
+                    <a asp-area="admin" asp-controller="Contact" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

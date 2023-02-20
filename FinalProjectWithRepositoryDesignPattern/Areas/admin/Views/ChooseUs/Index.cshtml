@@ -1,0 +1,49 @@
+﻿@using FinalProjectWithRepositoryDesignPattern.DTOs.ChooseUs
+
+@{
+    ViewData["Title"] = "Index";
+    int count = 1;
+}
+@model ChooseUsGetDto
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Text</th>
+            <th scope="col">Photo</th>
+            <th scope="col">Options</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <th scope="row">@count</th>
+                <td>@Model.Name</td>
+                <td>
+                    @Model.Title
+                </td>
+                <td>
+                    @for (int i = 0; i < Model.ChooseUsActions.Count; i++)
+                    {
+                        <p>@Model.ChooseUsActions[i].Icon</p>
+                    }
+                </td>
+                <td>
+                    @for (int i = 0; i < Model.ChooseUsActions.Count; i++)
+                    {
+                        <p>@Model.ChooseUsActions[i].Name</p>
+                    }
+                </td>
+                <td>
+                    <img src="~/assets/img/@Model.Image">
+                </td>
+                <td>
+                    <a asp-area="admin" asp-controller="ChooseUs" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-info">Edit</a>
+                </td>
+            </tr>
+        
+          
+        
+    </tbody>
+</table>
+

@@ -1,0 +1,43 @@
+﻿@using FinalProjectWithRepositoryDesignPattern.DTOs.AboutUs
+
+@{
+    ViewData["Title"] = "Index";
+    int count = 1;
+}
+@model List<AboutUsGetDto>
+<a class="btn btn-info" asp-area="admin" asp-controller="About" asp-action="edit" asp-route-id=@Model.FirstOrDefault().Id>Edit</a>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Actions</th>
+            <th scope="col">Image</th>
+
+        </tr>
+    </thead>
+    <tbody>
+       @foreach (var item in Model)
+       {
+            <tr>
+                <th scope="row">1</th>
+                <td>@item.AboutName</td>
+                <td>@item.AboutTitle</td>
+                <td>@item.Aboutdescription</td>
+                <td>
+                    @foreach (var action in item.AboutActions)
+                    {
+                        <li>@action.Name</li>
+                    }
+                </td>
+                <td>
+                    <img src="~/assets/img/@item.Image">
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
